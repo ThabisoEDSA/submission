@@ -5,7 +5,7 @@ def bubble_sort(items):
                 temp = items[i]
                 items[i] = items[i+1]
                 items[i+1] = temp
-    return alist
+    return items
     '''Return array of items, sorted in ascending order'''
 def merge_sort(array):
     """Merge sort algorithm implementation."""
