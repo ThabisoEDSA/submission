@@ -1,7 +1,7 @@
 def bubble_sort(items):
     for passnum in range(len(items)-1,0,-1):
         for i in range(passnum):
-
+            if items[i]>items[i+1]:
                 temp = items[i]
                 items[i] = items[i+1]
                 items[i+1] = temp
